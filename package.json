@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build-lib": "babel lib --out-dir dist",
-    "test": "electron-mocha test && electron-mocha --renderer test",
-    "postinstall": "postinstall-build dist \"npm run build-lib\""
+    "test": "electron-mocha test && electron-mocha --renderer test"
   },
   "keywords": [
     "electron",
